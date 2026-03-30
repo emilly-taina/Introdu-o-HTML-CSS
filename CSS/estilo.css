@@ -1,0 +1,79 @@
+/* Reset básico */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f4ff;
+  color: #333;
+  min-height: 100vh;
+}
+
+/* Regra obrigatória da atividade — não remova! */
+p {
+  background-color: blue;
+  color: white;
+}
+
+header {
+  background-color: #003080;
+  color: white;
+  padding: 24px;
+  text-align: center;
+}
+
+header h1 {
+  font-size: 2rem;
+  letter-spacing: 1px;
+}
+
+main {
+  max-width: 700px;
+  margin: 40px auto;
+  padding: 0 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+main > p {
+  font-size: 1.4rem;
+  font-weight: bold;
+  padding: 16px 24px;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.sobre, .contato {
+  background-color: white;
+  border-radius: 8px;
+  padding: 20px 24px;
+  border-left: 4px solid blue;
+}
+
+.sobre h2, .contato h2 {
+  margin-bottom: 10px;
+  color: #003080;
+}
+
+.texto {
+  background-color: transparent;
+  color: #333;
+  padding: 0;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  margin-top: 40px;
+  border-top: 1px solid #ccc;
+}
+
+footer p {
+  background-color: transparent;
+  color: #666;
+  font-size: 0.85rem;
+}
